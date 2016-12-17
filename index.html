@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<!--Dayanneth Gonzalez-->
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <!-- BOOTSTRAP (style only)-->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <link rel="stylesheet" href ="finalproject.css"/>
+  <title>Learning the Law of Cosines</title>
+  <script type = "text/javascript" src ="finalproject.js"></script>
+  </head>
+  <body lang = "en-US">
+    <p><h2 id="law">Law of Cosines</h2></p>
+      <div style="width:100%">
+        <div style="float: left; width: 40%">
+          <h2 class="heading">The law of cosines applies if we know</h2>
+            <p><h2 class="heading">one of the following:</h2></p>
+            <ul class="list">
+              <li>Two sides and an angle between them</li>
+                  <p class="center"> or </p>
+              <li> All three sides of a triangle</li>
+            </ul>
+            <!--courtesy of https://www.mathsisfun.com/algebra/trig-solving-sas-triangles.html-->
+              <img alt="Triangle ABC with sides a, 5,7, and angle A of 49 degrees between sides 5 and 7" src="https://www.mathsisfun.com/algebra/images/trig-sasex1.gif"/>
+              <h1 class="center"> or </h1>
+            <!--courtesy of https://www.mathsisfun.com/algebra/trig-cosine-law.html-->
+              <img alt="Triangle ABC with sides 5,8,9 looking for angle C"src="https://www.mathsisfun.com/algebra/images/trig-cosruleex4.gif"/>
+          </div>
+          <div style="float: right; width:50%">
+            <h2 class="heading2">In any triangle ABC we have:</h2>
+              <ul class="list2">
+                <li>a<sup>2</sup>=b<sup>2</sup>+c<sup>2</sup>-2bccosA</li>
+                <li>b<sup>2</sup>=a<sup>2</sup>+c<sup>2</sup>-2accosB</li>
+                <li>c<sup>2</sup>=a<sup>2</sup>+b<sup>2</sup><input id="answer" type="text"placeholder="???"/></li>
+                  <button class="button" type="button" class="btn btn-primary btn-md"
+                    onclick="check();">Check</button>
+                  </ul>
+                  
+              </div>
+            </div>
+          </div>
+        </div>
+      </body>
+  </html>
